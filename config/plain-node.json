@@ -1,0 +1,5 @@
+{
+  "mode": "plain-node",
+  "mcpUrl": "https://mcp.machines.cash/mcp",
+  "notes": "Use this as your default baseline project before adding host SDKs."
+}

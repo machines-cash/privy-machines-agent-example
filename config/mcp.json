@@ -1,0 +1,8 @@
+{
+  "name": "machines",
+  "transport": "streamable-http",
+  "url": "https://mcp.machines.cash/mcp",
+  "headers": {
+    "X-User-Key": "${MACHINES_USER_API_KEY}"
+  }
+}

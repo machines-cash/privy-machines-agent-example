@@ -1,0 +1,10 @@
+{
+  "name": "privy-machines-agent-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "flow": "node src/create-disposable-card-and-pay.mjs",
+    "agent": "node src/run-agent.mjs"
+  }
+}

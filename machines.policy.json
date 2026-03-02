@@ -1,0 +1,18 @@
+{
+  "description": "Default policy template for agent sessions",
+  "scopes": [
+    "cards.read",
+    "cards.write",
+    "transactions.read",
+    "payments.read",
+    "payments.write"
+  ],
+  "session": {
+    "ttlSeconds": 900,
+    "policy": {
+      "maxAuthAmountCents": 50000,
+      "dailySpendCapCents": 200000,
+      "allowCardSecrets": false
+    }
+  }
+}
